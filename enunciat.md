@@ -26,4 +26,4 @@ Pàgina 3: Títol: Les meves aficions. Per exemple si t'agrada el futbol posa un
 
 Pàgina 4: Títol La meva futura feina. Els estudis que estàs cursant i si faràs algun tipus d'estudis complementaris quan terminis el Grau. On t'agradaria treballar i visualitza el teu futur professional.
 
-![Exemple pag 2](./model.png)
+![Exemple pag 2](./images/model.png)
