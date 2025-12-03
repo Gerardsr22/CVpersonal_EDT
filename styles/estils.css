@@ -13,6 +13,8 @@ main, section, article {
     margin: 40px auto;
 }
  
+/* ----------------------------------------------------------- */
+
  /* BARRA DE NAVEGACIÓ */
 
  /* Reset básico */
@@ -76,6 +78,8 @@ nav {
         gap: 20px;
     }
 }
+
+/* ----------------------------------------------------------- */
 
 /*  INICI */
 
@@ -185,6 +189,8 @@ nav {
 }
 
 
+/* ----------------------------------------------------------- */
+
 /* CV */
 
 .cv {
@@ -254,6 +260,14 @@ h3 {
     gap: 10px;
 }
 
+.contact a {
+    color: #ffffff;
+}
+
+.contact a:hover{
+    color:#0f766e;
+}
+
 /* ITEMS */
 .item {
     margin-bottom: 15px;
@@ -312,6 +326,8 @@ ul {
         grid-template-columns: 1fr;
     }
 }
+
+/* ----------------------------------------------------------- */
 
 /* AFICIONS */
 
@@ -389,3 +405,52 @@ ul {
     }
 }
 
+/* ----------------------------------------------------------- */
+
+/* FUTUR LABORAL */
+
+.futur {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/* GRIDS */
+.skills-grid,
+.jobs-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.skill,
+.job {
+    padding: 20px;
+    border-radius: 10px;
+    background: #f8fafc;
+    border-left: 6px solid #0f766e;
+}
+
+.skill h3,
+.job h3 {
+    color: #0f4c75;
+    margin-bottom: 10px;
+}
+
+/* SOFT SKILLS */
+.soft-skills {
+    list-style: none;
+    padding-left: 0;
+}
+
+.soft-skills li {
+    padding: 10px 0;
+    border-bottom: 1px solid #e5e7eb;
+    color: #0f4c75;
+}
+
+.soft-skills li::before {
+    content: "✔ ";
+    color: #0f766e;
+    font-weight: bold;
+}
