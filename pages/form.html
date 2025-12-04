@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/webp" href="../images/g-logo.webp">
+    <title>Formulari</title>
+    <link rel="stylesheet" href="../styles/estils.css">
+</head>
+<body>
+    
+    <nav>
+        <ul class="llista-nav">
+            <li><a href="index.html">Inici</a></li>
+            <li><a href="./p2.html">CV</a></li>
+            <li><a href="./p3.html"> Aficions</a></li>
+            <li><a href="./p4.html">Futur laboral</a></li>
+        </ul>
+    </nav>
+
+    <section class="card">
+    <h2>Contacte i col·laboració</h2>
+
+    <form class="contact-form">
+
+        <!-- NOM i LLINATGE-->
+        <div class="form-group">
+            <label for="nom">Nom</label>
+            <input type="text" id="nom" name="nom" placeholder="El teu nom" required>
+        </div>
+
+        <div class="form-group">
+            <label for="llinatge">Llinatge</label>
+            <input type="text" id="llinatge" name="llinatge" placeholder="El teu llinatge" required>
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" placeholder="El teu email" required>
+        </div>
+
+        <!-- RADIO 1 -->
+        <fieldset class="form-group">
+            <legend>Quina és la teva situació laboral?</legend>
+
+            <label>
+                <input type="radio" name="situacio" value="estudiant" required>
+                Estudiant
+            </label>
+
+            <label>
+                <input type="radio" name="situacio" value="treballant">
+                Treballant
+            </label>
+
+            <label>
+                <input type="radio" name="situacio" value="atur">
+                En recerca de feina
+            </label>
+        </fieldset>
+
+        <!-- RADIO 2 -->
+        <fieldset class="form-group">
+            <legend>Tens projectes personals en marxa?</legend>
+
+            <label>
+                <input type="radio" name="projectes" value="si" required>
+                Sí
+            </label>
+
+            <label>
+                <input type="radio" name="projectes" value="no">
+                No
+            </label>
+
+            <label>
+                <input type="radio" name="projectes" value="idea">
+                Només idees
+            </label>
+        </fieldset>
+
+        <!-- TEXTAREA -->
+        <div class="form-group">
+            <label for="necessitats">Què necessites de mi?</label>
+            <textarea id="necessitats" name="necessitats" rows="4"
+                placeholder="Explica breument en què et puc ajudar..."></textarea>
+        </div>
+
+        <!-- ENVIAR -->
+        <button type="submit" class="btn">Enviar</button>
+
+    </form>
+</section>
+</body>
+</html>
